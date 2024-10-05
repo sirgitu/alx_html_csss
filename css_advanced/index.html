@@ -4,9 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/4a2b055604.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Smile School</title>
+    <link rel="stylesheet" href="style.css">
     <style>
+        body {
+        background-image: url(Object.png);
+        background-repeat: no-repeat;
+    }
 
+    nav {
+        display: flex;
+        justify-content: space-between; /*adjust as needed */
+    }
+
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: right;
+        color: white;
+    }
+
+    nav ul li {
+        display: inline-block;
+        color: white;
+        margin-right: 10px;
+    }
+
+    nav ul li:last-child {
+        margin-right: 10px;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        color: white;
+    }
+
+    section div h1 {
+        text-align: center;
+        font-size: 5em;
+        color: white;
+        margin-bottom: 100px;
+    }
+
+    li {
+        list-style: none;
+        font-family: var(--font-family-base);
+    }
+
+    .smile off {
+        width: 36px;
+        height: 30px;
+        background: url(smile.png) 0 0 no-repeat;
+        display: block;
+        background-size: cover;
+    }
+
+    .smileSchool {
+        width: 114px;
+        height: 20px;
+        background: url(logo.png) 0 0 no-repeat;
+        display: block;
+        background-size: cover;
+    }
+
+    .header-hero {
+        background: var('1.png') center center no-repeat;
+        background-size: cover;
+        width: 100px;
+        min-height: 1093px;
+        position: relative;
+    }
+
+    .iconMenu::before {
+        content: '\e911';
+        text-decoration: none;
+        color: white;
+    }
+
+    title {
+        font-size: 120px;
+    }
     </style>
 </head>
 <body>
